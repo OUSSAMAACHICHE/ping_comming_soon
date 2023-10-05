@@ -11,7 +11,7 @@ function createErrorMsg() {
 	error.appendChild(document.createTextNode('Please provide a valid email address'));
 
 	// style error message
-	error.style.cssText = 'color: hsl(354, 100%, 66%); font-size: .7rem; position: absolute; top: 40px; left: 50px';
+	error.style.cssText = 'color: hsl(354, 100%, 66%); font-size: .7rem; position: absolute; top: 40px; left: 30%;';
 
 	form.appendChild(error);
 
